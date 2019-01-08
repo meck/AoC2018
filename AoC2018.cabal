@@ -47,6 +47,9 @@ library
                      , text
                      , containers
                      , split
+                     , mtl
+                     , megaparsec
+                     , safe
                      
 
   ghc-options:         -Wall
