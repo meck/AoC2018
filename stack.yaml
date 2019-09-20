@@ -1,4 +1,7 @@
-resolver: lts-12.20
+resolver: lts-14.6
 
 ghc-options:
   "$locals": -fhide-source-paths
+
+extra-deps:
+  - search-algorithms-0.3.1@sha256:83d487688e79f7d354a638d893364cd34cb01352cac9281734c27ee640e31925,1825
