@@ -57,7 +57,9 @@ library
         megaparsec -any,
         safe -any,
         search-algorithms -any,
-        MemoTrie -any
+        MemoTrie -any,
+        pointedlist -any,
+        pointedlist -any
 
 executable AoC2018
     main-is: Main.hs
